@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Charity Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        
+        }
+        .charity-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .charity-info img {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HelpHub</h1>
+    </header>
+    <nav>
+        <a href="https://zippy-serious-green.glitch.me/">Home</a>
+        <a href="https://lively-erratic-work.glitch.me/">Charities List</a>
+        <a href="https://maroon-six-gardenia.glitch.me/">Charity Profile</a>
+    </nav>
+    <main>
+        <div class="charity-info">
+            <img src="data:image/jpeg;base64,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" alt="HelpHub Logo">
+            <h2>About HelpHub</h2>
+            <p>HelpHub is a platform that connects donors with charitable organizations. Our mission is to make it easier for people to support causes they care about and make a positive impact in the world.</p>
+            <h3>Our Mission</h3>
+            <p>At HelpHub, we believe in transparency, accountability, and making a difference. We strive to ensure that every donation goes towards supporting those in need and making a lasting impact.</p>
+            <h3>How You Can Help</h3>        
+      <p>You can help support HelpHub by donating, fundraising, or volunteering with us. Together, we can make a difference in the lives of those who need it most.</p>
+     <script src="charity_Profile.js"></script>
+          <button id="volunteerButton">Volunteer Now</button>
+          
+<div id="volunteerForm" style="display:none;">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+        </div>
+      <div id="additionalDetails" style="display:none;">
+    Additional details about the charity.
+</div>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<script src="charity_Profile.js"></script>
