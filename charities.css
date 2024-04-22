@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Subtle background color */
+    color: #333333; /* Default text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Header background color */
+    color: #ffffff; /* Header text color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333333; /* Navigation bar background color */
+    color: #ffffff; /* Navigation bar text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffffff; /* Navigation bar link color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a.active {
+    font-weight: bold; /* Bold font for active link */
+}
+
+/* Title Styles */
+h1, h2, h3 {
+    color: #333333; /* Default heading color */
+}
+
+h1 {
+    background-color: #ffc107; /* Homepage title background color */
+    padding: 10px;
+}
+
+h2 {
+    color: #007bff; /* Section title color */
+    padding-top: 20px;
+}
+
+/* Text Styles */
+p {
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #cccccc; /* Image border color */
+    border-radius: 4px;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333; /* Footer background color */
+    color: #ffffff; /* Footer text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav a {
+        margin: 0 5px;
+    }
+    button {
+        padding: 8px 16px;
+    }
+}
